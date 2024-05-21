@@ -1,0 +1,470 @@
+repo_name: naywintx/webogram
+report_id: f1d77f9512c237a0c12b3ab8db23a595
+version: 0.1
+repo_type: Public
+timestamp: '2024-05-21T02:34:38+00:00'
+requested_by: zhukov
+provider: github
+branch: master
+detected_tools_count: 35
+tools:
+- name: C lang
+  description: One of the most widely used programming languages of all time
+  website_url: http://en.wikipedia.org/wiki/C_(programming_language)
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/naywintx/webogram
+  detection_source: Repo Metadata
+- name: C++
+  description: Has imperative, object-oriented and generic programming features, while
+    also providing the facilities for low level memory manipulation
+  website_url: http://www.cplusplus.com/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1049/cplusplus.png
+  detection_source_url: https://github.com/naywintx/webogram
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/naywintx/webogram
+  detection_source: Repo Metadata
+- name: PHP
+  description: A popular general-purpose scripting language that is especially suited
+    to web development
+  website_url: http://www.php.net/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg
+  detection_source_url: https://github.com/naywintx/webogram
+  detection_source: Repo Metadata
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/naywintx/webogram/blob/master/Dockerfile
+  detection_source: Dockerfile
+  last_updated_by: Vincent Ambo
+  last_updated_on: 2014-09-02 16:44:29.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/naywintx/webogram
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/naywintx/webogram
+  detection_source: Repo Metadata
+- name: Jasmine
+  description: DOM-less simple JavaScript testing framework
+  website_url: http://jasmine.github.io/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/831/7c0b595409af531b9cdeb07f8c513e8b.png
+  detection_source_url: https://github.com/naywintx/webogram/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: André Jaenisch
+  last_updated_on: 2017-01-12 15:09:31.000000000 Z
+- name: Karma
+  description: Spectacular Test Runner for JavaScript
+  website_url: http://karma-runner.github.io/
+  version: 4.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Browser Testing
+  image_url: https://img.stackshare.io/service/1420/TidYGd6a.png
+  detection_source_url: https://github.com/naywintx/webogram/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Igor Zhukov
+  last_updated_on: 2019-05-09 19:38:47.000000000 Z
+- name: LiveReload
+  description: CSS edits and image changes apply live. CoffeeScript, SASS, LESS and
+    others just work.
+  website_url: http://livereload.com
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Live Reloading
+  image_url: https://img.stackshare.io/service/2601/128.png
+  detection_source_url: https://github.com/naywintx/webogram/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Igor Zhukov
+  last_updated_on: 2019-12-11 19:20:20.000000000 Z
+- name: PhantomJS
+  description: Scriptable Headless WebKit
+  website_url: https://phantomjs.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Headless Browsers
+  image_url: https://img.stackshare.io/service/1832/phantomjs.png
+  detection_source_url: https://github.com/naywintx/webogram/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: André Jaenisch
+  last_updated_on: 2017-01-12 15:09:31.000000000 Z
+- name: gulp
+  description: The streaming build system
+  website_url: http://gulpjs.com/
+  version: 4.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/844/iruTC031.png
+  detection_source_url: https://github.com/naywintx/webogram/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Igor Zhukov
+  last_updated_on: 2019-12-11 19:20:20.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/naywintx/webogram/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Pablo Terradillos
+  last_updated_on: 2014-03-09 21:12:41.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/naywintx/webogram
+  detection_source: Repo Metadata
+- name: del
+  description: Delete files and directories
+  package_url: https://www.npmjs.com/del
+  version: 4.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15907/default_a582b9fecca65f37fe68520c8f84d3bcae35db24.png
+  detection_source_url: https://github.com/naywintx/webogram/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Pablo Terradillos
+  last_updated_on: 2014-03-09 21:12:41.000000000 Z
+- name: gulp-angular-templatecache
+  description: Concatenates and registers AngularJS templates in the $templateCache
+  package_url: https://www.npmjs.com/gulp-angular-templatecache
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17255/default_9aa9c9d4e491c9d2d70df74bfa33cf525babb7f5.png
+  detection_source_url: https://github.com/naywintx/webogram/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Igor Zhukov
+  last_updated_on: 2019-12-11 19:20:20.000000000 Z
+- name: gulp-concat
+  description: Concatenates files
+  package_url: https://www.npmjs.com/gulp-concat
+  version: 2.6.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15973/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/naywintx/webogram/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Igor Zhukov
+  last_updated_on: 2019-12-11 19:20:20.000000000 Z
+- name: gulp-imagemin
+  description: Minify PNG, JPEG, GIF and SVG images
+  package_url: https://www.npmjs.com/gulp-imagemin
+  version: 5.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16485/default_0a704f5fac0bffcf529c9a61658d0b9ddbf7504e.png
+  detection_source_url: https://github.com/naywintx/webogram/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Igor Zhukov
+  last_updated_on: 2019-12-11 19:20:20.000000000 Z
+- name: gulp-less
+  description: Less for Gulp
+  package_url: https://www.npmjs.com/gulp-less
+  version: 4.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16267/default_dc80ff0a17bac19253430a4f0f586714841116db.png
+  detection_source_url: https://github.com/naywintx/webogram/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Igor Zhukov
+  last_updated_on: 2019-12-11 19:20:20.000000000 Z
+- name: gulp-livereload
+  description: Gulp plugin for livereload
+  package_url: https://www.npmjs.com/gulp-livereload
+  version: 4.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16529/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: https://github.com/naywintx/webogram/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Igor Zhukov
+  last_updated_on: 2019-12-11 19:20:20.000000000 Z
+- name: gulp-load-plugins
+  description: Automatically load any gulp plugins in your package.json
+  package_url: https://www.npmjs.com/gulp-load-plugins
+  version: 2.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16154/default_ac04a744873b460c4ef30a7450ed0c83223640ab.png
+  detection_source_url: https://github.com/naywintx/webogram/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Igor Zhukov
+  last_updated_on: 2019-12-11 19:20:20.000000000 Z
+- name: gulp-minify-css
+  description: Minify css with clean-css
+  package_url: https://www.npmjs.com/gulp-minify-css
+  version: 0.3.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16291/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
+  detection_source_url: https://github.com/naywintx/webogram/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Igor Zhukov
+  last_updated_on: 2019-12-11 19:20:20.000000000 Z
+- name: gulp-minify-html
+  description: Minify html with minimize
+  package_url: https://www.npmjs.com/gulp-minify-html
+  version: 0.1.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17459/default_2a4dc012d9584af49ba34825451ae7a5a8d75e4b.png
+  detection_source_url: https://github.com/naywintx/webogram/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Igor Zhukov
+  last_updated_on: 2019-12-11 19:20:20.000000000 Z
+- name: gulp-ng-annotate
+  description: Add angularjs dependency injection annotations with ng-annotate
+  package_url: https://www.npmjs.com/gulp-ng-annotate
+  version: 0.5.3
+  license: CC0-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16996/default_7a9e63a9526bf5da91e7a6f9f792b13e3543a875.png
+  detection_source_url: https://github.com/naywintx/webogram/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Igor Zhukov
+  last_updated_on: 2019-12-11 19:20:20.000000000 Z
+- name: gulp-replace
+  description: A string replace plugin for gulp
+  package_url: https://www.npmjs.com/gulp-replace
+  version: 0.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16150/default_73326c44fbfa7369fd17573edb113e5d849468bc.png
+  detection_source_url: https://github.com/naywintx/webogram/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Igor Zhukov
+  last_updated_on: 2019-12-11 19:20:20.000000000 Z
+- name: gulp-rev
+  description: 'Static asset revisioning by appending content hash to filenames: unicorn.css
+    =&gt; unicorn-d41d8cd98f.css'
+  package_url: https://www.npmjs.com/gulp-rev
+  version: 1.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17180/default_fbe883dfc6d978f82179fa11bdf634af1b6751fa.png
+  detection_source_url: https://github.com/naywintx/webogram/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Igor Zhukov
+  last_updated_on: 2019-12-11 19:20:20.000000000 Z
+- name: gulp-uglify
+  description: Minify files with UglifyJS
+  package_url: https://www.npmjs.com/gulp-uglify
+  version: 1.5.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15910/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/naywintx/webogram/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Igor Zhukov
+  last_updated_on: 2019-12-11 19:20:20.000000000 Z
+- name: gulp-zip
+  description: ZIP compress files
+  package_url: https://www.npmjs.com/gulp-zip
+  version: 0.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16846/default_5c6919c5e02b8e6c83f3a2b23db5b6962e3caca0.png
+  detection_source_url: https://github.com/naywintx/webogram/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Igor Zhukov
+  last_updated_on: 2019-12-11 19:20:20.000000000 Z
+- name: http
+  package_url: https://www.npmjs.com/http
+  version: 0.0.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16874/default_768abdabb94806c932ace6262b6bbc8241907245.png
+  detection_source_url: https://github.com/naywintx/webogram/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Igor Zhukov
+  last_updated_on: 2014-12-28 14:38:48.000000000 Z
+- name: jasmine-core
+  description: Official packaging of Jasmine's core files for use by Node.js projects
+  package_url: https://www.npmjs.com/jasmine-core
+  version: 2.99.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15905/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
+  detection_source_url: https://github.com/naywintx/webogram/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: André Jaenisch
+  last_updated_on: 2017-01-12 15:09:31.000000000 Z
+- name: karma-coverage
+  description: A Karma plugin. Generate code coverage
+  package_url: https://www.npmjs.com/karma-coverage
+  version: 1.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15951/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/naywintx/webogram/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Igor Zhukov
+  last_updated_on: 2019-05-09 19:38:47.000000000 Z
+- name: karma-jasmine
+  description: A Karma plugin - adapter for Jasmine testing framework
+  package_url: https://www.npmjs.com/karma-jasmine
+  version: 1.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15886/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/naywintx/webogram/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Igor Zhukov
+  last_updated_on: 2019-05-09 19:38:47.000000000 Z
+- name: karma-phantomjs-launcher
+  description: A Karma plugin. Launcher for PhantomJS
+  package_url: https://www.npmjs.com/karma-phantomjs-launcher
+  version: 1.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15947/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/naywintx/webogram/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Igor Zhukov
+  last_updated_on: 2019-05-09 19:38:47.000000000 Z
+- name: phantomjs-prebuilt
+  description: Headless WebKit with JS API
+  package_url: https://www.npmjs.com/phantomjs-prebuilt
+  version: 2.1.16
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16054/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/naywintx/webogram/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jehon
+  last_updated_on: 2018-10-08 19:52:10.000000000 Z
+- name: st
+  description: A module for serving static files. Does etags, caching, etc
+  package_url: https://www.npmjs.com/st
+  version: 1.2.2
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18455/default_d8e945bfec4c4a608fb0493abf73c9ec1cffc9a2.png
+  detection_source_url: https://github.com/naywintx/webogram/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Pablo Terradillos
+  last_updated_on: 2014-03-09 21:12:41.000000000 Z
